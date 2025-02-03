@@ -806,6 +806,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  display: flex;
+  align-items: center;
+
 }
 
 .windows-five-span {
@@ -824,12 +827,19 @@ img {
   margin-bottom: 16px;
 }
 
-.input-five:checked+.windows-five-span {
+.input-five:checked+.windows-five-label .windows-five-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
 
+
+.windows-five-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
 
 .windows-five-a {
   color: #4d5ae5;
