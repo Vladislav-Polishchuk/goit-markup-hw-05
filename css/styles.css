@@ -653,7 +653,17 @@ img {
   background-color: #4D5AE5;
   border: none;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.footer-forms-button:hover {
+  background-color: #404bbf;
+}
+
+.footer-forms-button:focus {
+  background-color: #404bbf;
+}
+
 
 .icon-svg-forms {
   fill: #fff;
@@ -859,4 +869,13 @@ img {
   background-color: #4D5AE5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0 auto;
+}
+
+.six-button:hover {
+  background-color: #404bbf;
+}
+
+.six-button:focus {
+  background-color: #404bbf;
 }
